@@ -16,7 +16,7 @@
             flex-direction: column;
             text-align: center;
             padding: 2em;
-            margin-top: -80px;
+            margin-top: -60px;
         }
         #about-section img {
             border-radius: 50%;
@@ -43,6 +43,29 @@
         }
         .social-icons a.github:hover {
             color: #6e5494; /* GitHub black */
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            #about-section {
+                padding: 1em;
+                margin-top: 0;
+            }
+            #about-section img {
+                width: 200px;
+                height: 200px;
+            }
+            #about-section p {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #about-section img {
+                width: 150px;
+                height: 150px;
+            }
         }
     </style>
 </head>
