@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Jean-Luc Begue's Portfolio </title>
+    <title>Jean-Luc Begue's Portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -44,7 +44,19 @@
         .social-icons a.github:hover {
             color: #6e5494; /* GitHub black */
         }
-
+        .project {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .project a {
+            font-size: 1.5em;
+            color: #333;
+            text-decoration: none;
+        }
+        .project a:hover {
+            color: #6e5494; /* GitHub black */
+        }
         /* Responsive styles */
         @media (max-width: 768px) {
             #about-section {
@@ -60,7 +72,6 @@
                 margin: 0 auto;
             }
         }
-
         @media (max-width: 480px) {
             #about-section img {
                 width: 150px;
@@ -152,18 +163,38 @@
 
             <!-- Projects -->
             <article id="projects">
-                <h2 class="major">Group Projects </h2>
+                <h2 class="major">Group Project Experience</h2>
                 <ul>
-                    <li>Encryption System Development (Java): Implemented a secure encryption system using advanced cryptographic techniques.</li>
-                    <li>Computerized System (C# & MS SQL Server): Planning and design of a computerized system improving data management and operational workflows.</li>
-                    <li>Network Infrastructure Planning: Designed a comprehensive network infrastructure for a new office environment.</li>
-                    <li>Text Messaging Application: Developed a Windows-based text messaging application focusing on user experience and efficient communication protocols.</li>
+                    <li class="project">
+                        <span>Encryption System Development (Java): Implemented a secure encryption system using advanced cryptographic techniques.</span>
+                        <a href="https://github.com/AspectY/Encryption-and-Decryption-Project.git" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <span>Computerized System (C# & MS SQL Server): Planning and design of a computerized system improving data management and operational workflows.</span>
+                        <a href="https://github.com/YourUsername/ComputerizedSystem" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <span>Network Infrastructure Planning: Designed a comprehensive network infrastructure for a new office environment.</span>
+                        <a href="https://github.com/YourUsername/NetworkInfrastructure" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <span>Text Messaging Application: Developed a Windows-based text messaging application focusing on user experience and efficient communication protocols.</span>
+                        <a href="https://github.com/YourUsername/TextMessagingApp" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
                 </ul>
             </article>
 
             <!-- Experience -->
             <article id="experience">
-                <h2 class="major">Experience </h2>
+                <h2 class="major">Experience & References</h2>
                 <p>Abacus Financial Crime Advisory (Pty) Ltd (2024)</p>
                 <ul>
                     <li>Total of five weeks experience gained in data capturing, analytics, forensic accounting, and IT tool implementation.</li>
